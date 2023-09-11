@@ -1,0 +1,22 @@
+<%- include("header") -%>
+
+<% for (let i = 0; i < jobResults.length; i++) { %>
+    <h2>Job Title:</h2>
+    <p><%= jobResults[i].job_title_ejs %></p>
+
+    <h2>Job Provider:</h2>
+    <p><%= jobResults[i].job_provider_ejs %></p>
+
+    <h2>Job Location:</h2>
+    <p><%= jobResults[i].job_location_ejs %></p>
+
+    <h2>Job Offered By:</h2>
+    <p><%= jobResults[i].job_offer_by_ejs %></p>
+
+    <h2>Job Type:</h2>
+    <p><%= jobResults[i].job_type_ejs %></p>
+
+    <hr>
+<% } %>
+
+<%- include("footer") -%>

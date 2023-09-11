@@ -1,0 +1,14 @@
+<%- include("header") -%>
+<body>
+  <form action="/result" method="post">
+    <div class="d-flex flex-column align-items-center ">
+      <!-- Job ka nam -->
+      <input class="text-bar w-50" type="text" name="job_type" placeholder="Job Title">
+      <!-- Job ka jaga -->
+      <input class="text-bar w-50" type="text" name="job_location" placeholder="City/State/country">
+      <!-- <input class="text-bar w-50" type="text" name="job_location" placeholder="search_place"> -->
+      <button class="btn btn-dark" type="submit">Submit</button>
+    </div>
+  </form>
+</body>
+<%- include("footer") -%>

@@ -1,0 +1,19 @@
+{
+  "name": "google-jobs",
+  "version": "1.0.0",
+  "description": "Google job search website | The jobseeker's lounge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chandu Biju panikar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "node": "^19.0.0",
+    "views": "^1.0.2"
+  }
+}
